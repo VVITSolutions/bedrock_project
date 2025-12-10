@@ -58,15 +58,12 @@ Enter your Access Key, Secret Key, region: us-east-1
 Usage1. Add knowledge to your databasebash
 
 python add_to_db.py --text "My name is Ravi Kumar Boppudi"
-
 python add_to_db.py --text "I am learning AWS Bedrock and RAG in 2025"
-
-python add_to_db.py --text "I live in UK and love steak and eggs"
+python add_to_db.py --text "I live in Hyderabad and love biryani"
 
 2. Search your personal knowledge basebash
 
 python search_db.py --query "Who is Ravi?"
-
 python search_db.py --query "Where does Ravi live?" --n 2
 
 Example output:
@@ -97,3 +94,16 @@ Switch to fully offline embeddings
 
 AuthorRavi Kumar Boppudi
 Learning AWS Bedrock, LangChain, and building AI applications in 2025 Star this repo if you found it helpful!
+
+
+# Ravi's Personal AI Assistant 🧠 (AWS Bedrock + ChromaDB RAG)
+
+A **fully working Retrieval-Augmented Generation (RAG)** system that knows everything about me — built with **AWS Bedrock**, **Titan Embeddings v2**, **Claude 3.5 Haiku**, and **ChromaDB**.
+
+This is not a demo. This is **my real personal AI memory** that I use daily.
+
+## Live Demo (It actually works!)
+
+```bash
+python chatbot.py
+
